@@ -4,13 +4,13 @@ fioでCrystalDiskMarkっぽい計測を行うコマンド
 ## Usage
 
 ```
-fio <path>
+fio-cdm <path> <testsize>
 ```
 
 ### sample
 
 ```
-# fio-cdm /mnt/sdf1
+# fio-cdm /mnt/hogepoint 8g
 |      | Read(MB/s)|Write(MB/s)|
 |------|-----------|-----------|
 |  Seq |    305.307|    138.191|
