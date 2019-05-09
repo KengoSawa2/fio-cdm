@@ -1,5 +1,6 @@
 # fio-cdm
 fioでCrystalDiskMarkっぽい計測を行うコマンド
+fio 2.xがインストールされている環境で使えるよ
 
 ## Usage
 
