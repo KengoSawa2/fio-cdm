@@ -8,9 +8,11 @@ fio 2.xがインストールされている環境で使えるよ
 aio2.xの場合
 fio-cdm <path> <testsize>
 ```
-aio3.x
+```
+aio3.xの場合
 TARGET=テストディスクパス fio -f fio3.txt --output-format=terse | awk -F ';' '{print $3, ($7+$48) / 1000}'
 テストサイズはfio3.txtの中身を適宜書き換えてね
+```
 
 ### sample
 
